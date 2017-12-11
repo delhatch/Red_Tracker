@@ -14,13 +14,15 @@ b) buffer the raw video into an SDRAM frame buffer
 
 c) simulataneously, detect red pixels and create a second frame buffer
 
-d) while creating the second frame buffer, detect the largest red mass
+d) while doing this, also low-pass filters that video,
 
-e) generate the x,y coordinate of the center of the red mass
+e) and also while creating/filtering the second frame buffer, detect the largest red mass
 
-f) overlay a crosshair onto the video going to the VGA output
+f) generate the x,y coordinate of the center of the red mass
 
-g) FPGA also has a VGA frame buffer and creates the VGA waveform
+g) overlay a crosshair onto the video going to the VGA output
+
+h) FPGA also has a VGA frame buffer and creates the VGA waveform
 
 
 *** Possible Improvements ***

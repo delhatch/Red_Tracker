@@ -12,7 +12,7 @@ a) configure and interface to the camera module
 
 b) buffer the raw video into an SDRAM frame buffer
 
-c) simulataneously, detect red pixels and create a second frame buffer
+c) simultaneously, detect red pixels and create a second frame buffer
 
 d) while doing this, also low-pass filters that video,
 

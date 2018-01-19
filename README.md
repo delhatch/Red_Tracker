@@ -2,6 +2,8 @@
 
 This project interfaces with a D8M camera module by Terasic. It detects any red object, and tracks it.
 
+![Demo_video](https://github.com/delhatch/Red_Tracker/blob/master/aaa_demo_video.mp4)
+
 The incoming camera video (at 60 fps) is filtered for red pixels and creates a frame buffer. This red-pixel frame buffer is shown on the MP4 video file.
 
 It then finds the center of the largest red mass, and overlays a crosshair on it.
